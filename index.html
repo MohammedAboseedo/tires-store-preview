@@ -1,0 +1,626 @@
+<title>متجر الإطارات — الصفحة الرئيسية (النسخة النهائية)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Archivo:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/store.css"><style>html{direction:rtl}</style>
+<script src="assets/store.js"></script>
+<script>document.documentElement.lang="ar";document.documentElement.dir="rtl";document.body&&(document.body.dataset.page="home");</script>
+
+<!-- icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+  <symbol id="i-bag" viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M19 12H5m6-6-6 6 6 6"/></symbol>
+  <symbol id="i-next" viewBox="0 0 24 24"><path d="m15 6-6 6 6 6"/></symbol>
+  <symbol id="i-prev" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+  <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/></symbol>
+  <symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.6 2.6-2.4-.6-.6-2.4z"/></symbol>
+  <symbol id="i-card" viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></symbol>
+  <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7"/><circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/></symbol>
+  <symbol id="i-cal" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6-7-11a7 7 0 0 1 14 0c0 5-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7v9h-6v-6H9v6H3z"/></symbol>
+  <symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  <symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/></symbol>
+  <symbol id="i-cat-all" viewBox="0 0 48 48"><circle cx="24" cy="24" r="17"/><circle cx="24" cy="24" r="8"/><path d="M24 7v5M24 36v5M7 24h5M36 24h5M12 12l3.5 3.5M32.5 32.5 36 36M36 12l-3.5 3.5M15.5 32.5 12 36"/></symbol>
+  <symbol id="i-cat-sedan" viewBox="0 0 48 48"><path d="M5 30v-5l5-2 6-7h14l7 7 6 2v5h-3"/><path d="M15 30h18"/><circle cx="11" cy="31" r="4"/><circle cx="37" cy="31" r="4"/><path d="M18 16l-2 7h18l-5-7"/></symbol>
+  <symbol id="i-cat-suv" viewBox="0 0 48 48"><path d="M4 31V20l4-8h24l6 8h4l2 3v8h-3"/><path d="M15 31h18"/><circle cx="11" cy="32" r="4"/><circle cx="37" cy="32" r="4"/><path d="M9 20h29M20 12v8"/></symbol>
+  <symbol id="i-cat-truck" viewBox="0 0 48 48"><path d="M3 31V18h17V12h12l6 8h5l2 3v8h-3"/><path d="M15 31h18M20 18h18"/><circle cx="11" cy="32" r="4"/><circle cx="37" cy="32" r="4"/></symbol>
+  <symbol id="i-tire" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/></symbol>
+</svg>
+
+<!-- [component] top bar — fields: message, phone -->
+<div class="topbar"><div class="wrap">
+  <span>تركيب مجاني في مراكزنا بالرياض <b class="hide-m">· تقسيط على 4 دفعات مع تابي وتمارا</b></span>
+  <a class="hide-m" href="tel:0593157718"><svg class="i" style="width:15px;height:15px"><use href="#i-phone"/></svg><span dir="ltr">0593157718</span></a>
+</div></div>
+
+<!-- [component] header — row 1: brand · search · tools + CTA / row 2: category nav -->
+<header>
+  <div class="wrap hrow">
+    <button class="ic burger" aria-label="القائمة"><svg class="i"><use href="#i-menu"/></svg></button>
+    <a class="brand" href="index.html"><img src="v2img/logo-mark.svg" alt=""><span><b>متجر الإطارات</b><small>TIRES STORE</small></span></a>
+    <form class="hsearch" onsubmit="return false" role="search"><input placeholder="ابحث باسم الإطار أو الماركة أو المقاس…" aria-label="بحث"><button class="hs-btn" type="submit">بحث</button></form>
+    <div class="tools">
+      <a class="ic only-m" href="category.html" aria-label="بحث"><svg class="i"><use href="#i-search"/></svg></a>
+      <a class="ic" href="account.html" aria-label="حسابي"><svg class="i"><use href="#i-user"/></svg></a>
+      <a class="ic" href="cart.html" aria-label="السلة"><svg class="i"><use href="#i-bag"/></svg><i id="cartN">0</i></a>
+      <a class="btn btn-gold hide-m" href="index.html#finder" style="height:46px;margin-inline-start:8px">اختر مقاسك <svg class="i" style="width:18px;height:18px"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div>
+  <nav class="hnav" aria-label="الأقسام"><div class="wrap"><a href="category.html?type=sedan">إطارات السيارات</a><a href="category.html?type=suv">إطارات دفع رباعي</a><a href="category.html?type=truck">إطارات شاحنات</a><a href="category.html" data-p="category">اكتشف الإطارات</a><a href="help.html#install" data-p="help">خدمة التركيب</a><a href="help.html#faq">المساعدة</a></div></nav>
+</header>
+
+<!-- [component] hero — fields: title, text, buttons, tire image, size code, giant text -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-copy">
+      <span class="kicker">إطارات أصلية · تركيب بنفس اليوم بالرياض</span>
+      <h1>مقاسك مكتوب<br>على <span>إطارك.</span></h1>
+      <p class="lead">اقرأ الأرقام على جانب إطارك الحالي، واختر الإطار المناسب بسعر واضح لكل حبة — والتركيب علينا.</p>
+      <div class="cta">
+        <a class="btn btn-gold" href="#finder">تسوّق حسب المقاس <svg class="i"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-line" href="help.html#install">اكتشف خدمة التركيب <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="proof"><span><b>+5,000</b> عميل</span><span><b>4.9</b> <em>★</em> تقييم المتجر</span><span><b>نفس اليوم</b> تركيب بالرياض</span></div>
+    </div>
+    <div class="stage">
+      <div class="giant">R16</div>
+      <div class="tire-box">
+        <img src="v3img/hero-tire.webp" alt="إطار بجنط أسود">
+        <svg viewBox="0 0 1000 1000" class="sw" id="sw">
+          <defs><path id="arc" d="M 165 500 A 335 335 0 0 1 835 500"/></defs>
+                    <text font-size="44"><textPath href="#arc" startOffset="50%" text-anchor="middle" id="tp"></textPath></text>
+        </svg>
+        <div class="pop" id="pop"><b id="popT"></b><span id="popX"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- [component] size finder — KEEP AS IS -->
+<div class="finder-band"><section class="wrap finder-wrap" id="finder">
+  <form class="finder" id="ff">
+    <div class="finder-title"><div><span class="eb">البداية الصحيحة</span><h2>اختر مقاس إطارك</h2></div><a id="how">كيف أعرف مقاسي؟ ↗</a></div>
+    <div class="sel"><label>العرض <span>WIDTH</span></label><select id="w"></select></div>
+    <div class="sel"><label>نسبة الارتفاع <span>PROFILE</span></label><select id="r"></select></div>
+    <div class="sel"><label>قطر الجنط <span>RIM</span></label><select id="j"></select></div>
+    <button class="go" type="submit">اعرض الإطارات <span>←</span></button>
+  </form>
+
+  </section></div>
+
+<!-- [component] benefits strip — items: icon, title, text -->
+<section class="wrap bstrip">
+  <div><svg class="i"><use href="#i-shield"/></svg><p><b>إطارات أصلية</b>من علامات تثق بها</p></div>
+  <div><svg class="i"><use href="#i-wrench"/></svg><p><b>تركيب بالرياض</b>عناية بكل التفاصيل</p></div>
+  <div><svg class="i"><use href="#i-card"/></svg><p><b>خيارات دفع مرنة</b>تابي وتمارا ومدى</p></div>
+  <div><svg class="i"><use href="#i-truck"/></svg><p><b>توصيل لجميع المناطق</b>رحلتك تبدأ من بابك</p></div>
+</section>
+
+<!-- [component] products — source: category / tabs by brand -->
+<section class="sec" id="types">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">الأكثر طلباً</span><h2 class="h2">إطارات هالأسبوع</h2></div>
+      <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap">
+        <div class="filters" id="filters"><button class="on">الكل</button><button>هانكوك</button><button>بريجستون</button><button>يوكوهاما</button><button>تاش</button></div>
+        <div class="nav-btns"><button class="sq" id="sPrev" aria-label="السابق"><svg class="i"><use href="#i-prev"/></svg></button><button class="sq" id="sNext" aria-label="التالي"><svg class="i"><use href="#i-next"/></svg></button></div>
+      </div>
+    </div>
+    <div class="slider" id="slider"></div>
+  </div>
+</section>
+
+<!-- [component] brands — items: name/logo, link -->
+<section class="wrap brands">
+  <span>علامات أصلية<br><b>من الوكيل مباشرة</b></span>
+  <div class="mq"><div class="mq-track"><a href="category.html?brand=هانكوك" style="font-style:italic">Hankook</a><a href="category.html?brand=بريجستون" style="font-style:italic;font-size:17px">BRIDGESTONE</a><a href="category.html?brand=يوكوهاما">YOKOHAMA</a><a href="brands.html">DUNLOP</a><a href="brands.html" style="font-style:italic">TOYO</a><a href="brands.html">NEXEN</a><a href="brands.html">MAXXIS</a><a href="brands.html">MICHELIN</a><a href="brands.html">PIRELLI</a></div></div>
+</section>
+
+<!-- [component] category cards — items: number, image, title, text, link, highlighted -->
+<section class="sec cats" id="cats">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">لكل سيارة، اختيار</span><h2 class="h2">جاهزة لطريقك.</h2></div><p class="lead">اختر فئة سيارتك، واكتشف الخيارات المناسبة.</p></div>
+    <div class="catg">
+      <a class="cat on" href="category.html"><span class="cn">01</span><span class="cic"><svg class="i"><use href="#i-cat-all"/></svg></span><b>جميع الإطارات</b><small>استكشف المجموعة</small><span class="ca"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+      <a class="cat" href="category.html"><span class="cn">02</span><span class="cic"><svg class="i"><use href="#i-cat-sedan"/></svg></span><b>سيارات سيدان</b><small>راحة للاستخدام اليومي</small><span class="ca"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+      <a class="cat" href="category.html"><span class="cn">03</span><span class="cic"><svg class="i"><use href="#i-cat-suv"/></svg></span><b>دفع رباعي</b><small>ثقة في كل رحلة</small><span class="ca"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+      <a class="cat" href="category.html"><span class="cn">04</span><span class="cic"><svg class="i"><use href="#i-cat-truck"/></svg></span><b>نقل و بيك أب</b><small>تحمّل ومسافات طويلة</small><span class="ca"><svg class="i"><use href="#i-arrow"/></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<!-- [component] shop by car — data: makes > models > years > size -->
+<section class="sec cars" id="cars">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">ما تعرف مقاسك؟</span><h2 class="h2">اختر سيارتك، ونطلع لك المقاس.</h2></div><p class="lead">الماركة، الموديل، السنة — وبس.</p></div>
+    <div class="car-ui">
+      <div class="car-col"><span class="cstep">1 · الماركة</span><div class="makes" id="makes"></div></div>
+      <div class="car-col"><span class="cstep">2 · الموديل</span><div class="list" id="models"><p class="hint">اختر الماركة أول</p></div></div>
+      <div class="car-col"><span class="cstep">3 · السنة</span><div class="list" id="years"><p class="hint">اختر الموديل</p></div></div>
+      <div class="car-out" id="carOut"><span class="cstep" style="color:#9a9ea2">المقاس المناسب</span><div class="cres">—</div><p>اختر سيارتك عشان نعرض المقاس والإطارات المتوفرة.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- [component] product grid — source: category, brand filters, sort -->
+<section class="sec" id="catalog" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">اختياراتنا لك</span><h2 class="h2">إطارات لكل رحلة.</h2></div>
+      <a class="link" href="category.html">عرض جميع الإطارات <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="ptool"><span id="ccount">8 منتجات</span><label>الترتيب <select id="csort"><option value="feat">المميزة أولاً</option><option value="pop">الأكثر مبيعاً</option><option value="low">السعر: الأقل أولاً</option><option value="high">السعر: الأعلى أولاً</option></select></label></div>
+    <div class="cfilters" id="cfilters"><button type="button" class="on" data-f="الكل">جميع الماركات</button><button type="button" data-f="هانكوك">Hankook</button><button type="button" data-f="بريجستون">Bridgestone</button><button type="button" data-f="يوكوهاما">Yokohama</button><button type="button" data-f="تاش">Tash</button></div>
+    <div class="cgrid" id="cgrid"></div>
+  </div>
+</section>
+
+<!-- [component] double banner — two cards: title, text, image/ghost text, link -->
+<section class="wrap dbl">
+  <a class="dcard dark" href="category.html">
+    <div class="dtxt"><span class="kicker" style="color:var(--gold)">للرحلة، من أولها</span><h3>أربع إطارات.<br>اختيار واحد مدروس.</h3><p>ابدأ بالمقاس، وقارن المجموعة المناسبة لسيارتك.</p><span class="link" style="color:#fff">اكتشف الإطارات <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></div>
+    <div class="dart"><span class="dslab"></span><img src="v3img/tire-a.webp" alt=""></div>
+  </a>
+  <a class="dcard light" href="#finder">
+    <span class="dghost">R</span>
+    <div class="dtxt"><span class="kicker">دقيقة وحدة تكفي</span><div class="dsize" dir="ltr">205 / 55 R16</div><p>ثلاثة أرقام، وكل رقم له معنى.<br>خلّينا نساعدك تفهم مقاسك.</p><span class="link">افتح دليل المقاسات <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></span></div>
+  </a>
+</section>
+
+<!-- [component] tire picker — priority toggle × 3 tiers -->
+<section class="sec" id="compare">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">قارن قبل ما تختار</span><h2 class="h2">وش أهم شيء عندك؟</h2></div>
+      <label class="cmp-pick">المقاس <select id="pkSize"><option>205/55 R16</option><option>215/60 R17</option><option>225/45 R18</option><option>265/65 R17</option><option>275/65 R18</option></select></label></div>
+    <div class="prio" id="prio" role="tablist"><button type="button" class="on" data-p="value">الأفضل قيمة</button><button type="button" data-p="price">أقل سعر</button><button type="button" data-p="life">أطول عمر</button><button type="button" data-p="quiet">أهدأ قيادة</button></div>
+    <p class="verdict" id="verdict"></p>
+    <div class="tiers" id="tiers"></div>
+  </div>
+</section>
+
+<!-- [component] services bento -->
+<section class="sec" id="bento" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">الخدمات</span><h2 class="h2">من الطلب لين التركيب.</h2></div><a class="link" href="help.html#centers">مواقع المراكز <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></a></div>
+    <div class="bento">
+      <a class="tile photo t-install" href="help.html#install"><img src="v3img/mechanic-check.webp" alt=""><div class="in"><h3>تركيب مجاني بنفس اليوم</h3><p>اختر «استلام وتركيب» في السلة، ونركّب إطاراتك على جنوطك في أحد مركزينا بالرياض.</p><span class="link" style="margin-top:16px">احجز موعد</span></div></a>
+      <div class="tile t-calc"><div><h3>كم القسط؟</h3><p>حرّك المؤشر حسب سعر الأربع إطارات.</p></div><div><div class="calc-n"><span id="inst">290</span><small>ر.س / شهرياً</small></div><input type="range" min="800" max="4000" step="40" value="1160" id="range" aria-label="إجمالي السعر"><div class="fine">الإجمالي <span id="tot">1160</span> ر.س · تابي أو تمارا</div></div></div>
+      <a class="tile photo" href="help.html#install"><img src="v3img/tread-depth.webp" alt=""><div class="in"><h3>فحص النقشة والضغط</h3><span class="link" style="margin-top:10px">مجاناً مع أي زيارة</span></div></a>
+      <a class="tile t-fleet" href="https://wa.me/966593157718"><div><h3>للشركات والأساطيل</h3><p>أسعار كميات، فواتير ضريبية، وجدولة تبديل دوري لسياراتكم.</p></div><span class="link">اطلب عرض سعر</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- [component] moving ticker — items: number, text, link -->
+<nav class="secbar" aria-label="أقسام المتجر"><div class="tk"><div class="tk-track" id="tkTrack">
+  <a href="#finder"><b>01</b>المقاس</a><a href="category.html"><b>02</b>الإطارات</a><a href="#fit"><b>03</b>التركيب</a><a href="#faq"><b>04</b>الدليل</a>
+  <span>إطارات أصلية بضمان الوكيل</span><span>تركيب مجاني بالرياض</span><span>قسّطها مع تابي وتمارا</span>
+</div></div></nav>
+
+<!-- [component] services row — intro + 3 image cards (title, text, image, link) -->
+<section class="sec" id="services">
+  <div class="wrap svc">
+    <div class="svc-intro"><span class="kicker">أكثر من مجرد إطار</span><h2 class="h2">كل ما تحتاجه<br>لإطاراتك.</h2><p class="lead">من اختيار المقاس إلى التركيب.<br>تجربة بسيطة، واهتمام بالتفاصيل.</p><a class="link" href="#fit">تعرّف على خدماتنا <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></a></div>
+    <a class="svc-card" href="#fit"><div class="svc-art"><img src="v3img/mechanic-tyre.webp" alt="فني يركّب إطار"><span class="svc-tag">عناية بالتفاصيل</span></div><div class="svc-cap"><div><b>تركيب احترافي</b><small>إطاراتك في أيدٍ خبيرة</small></div><span class="rnd-arr">↗</span></div></a>
+    <a class="svc-card" href="#faq"><div class="svc-art truck"><svg viewBox="0 0 360 200" aria-hidden="true"><rect x="42" y="58" width="170" height="92" rx="10" fill="#fff"/><path d="M212 80h54l44 41v29h-98Z" fill="#eceae4"/><path d="M222 87h36l28 29h-64Z" fill="#a9aeb2"/><path d="M46 132h262" stroke="#ffb71b" stroke-width="7"/><circle cx="97" cy="151" r="23" fill="#2f3337"/><circle cx="97" cy="151" r="10" fill="#d4d6d8"/><circle cx="265" cy="151" r="23" fill="#2f3337"/><circle cx="265" cy="151" r="10" fill="#d4d6d8"/><text x="127" y="108" font-size="17" text-anchor="middle" fill="#2f3337" font-weight="700" font-family="Arial">TIRES STORE</text></svg></div><div class="svc-cap"><div><b>توصيل إلى بابك</b><small>خيارات تناسب وجهتك</small></div><span class="rnd-arr">↗</span></div></a>
+    <a class="svc-card" href="#finder"><div class="svc-art guide"><img src="v2img/madar-tire.webp" alt=""><b dir="ltr">205 / 55 R16</b></div><div class="svc-cap"><div><b>دليل المقاسات</b><small>اعرف مقاسك بكل سهولة</small></div><span class="rnd-arr">↗</span></div></a>
+  </div>
+</section>
+
+<!-- [component] install banner (dark split) — image, caption, title, items, button -->
+<section class="fitd" id="fit">
+  <div class="fitd-img"><img src="v3img/mechanic-check.webp" alt="فني متخصص يركّب إطار السيارة"><div class="fitd-cap"><span>FIT. DRIVE. REPEAT.</span><small>اهتمام بالتفاصيل، من أول مسمار.</small></div></div>
+  <div class="fitd-copy">
+    <span class="kicker">جاهز للطريق</span>
+    <h2>اشترِ إطاراتك.<br><em>وركّبها عندنا.</em></h2>
+    <p>مراكز تركيب في الرياض، وتجربة أوضح من أول اختيار حتى الاستلام. راجع الموقع والخدمات المشمولة قبل إكمال طلبك.</p>
+    <ol><li><span>01</span>اختر المقاس والإطار</li><li><span>02</span>راجع طريقة الاستلام</li><li><span>03</span>نسّق موعد التركيب</li></ol>
+    <a class="btn btn-gold" href="#centers">الموقع وشروط التركيب <span aria-hidden="true">↗</span></a>
+    <small class="fine">نطاق الخدمة وما يشمله التركيب يُحدّدان وفق شروط المركز.</small>
+  </div>
+</section>
+
+<!-- [component] install centers — items: name, district, hours, phone, map link, image -->
+<section class="sec" id="centers" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">مراكز التركيب</span><h2 class="h2">أقرب مركز لك بالرياض.</h2></div><p class="lead">اختر المركز في السلة، ونجهّز إطاراتك قبل ما توصل.</p></div>
+    <div class="centers">
+      <article class="center"><img src="v3img/inspect.webp" alt=""><div class="cin"><span class="tag-open">مفتوح الآن</span><h3>مركز الملقا</h3><ul><li><svg class="i"><use href="#i-pin"/></svg>طريق أنس بن مالك، حي الملقا</li><li><svg class="i"><use href="#i-cal"/></svg>السبت–الخميس · 9 ص – 11 م</li><li><svg class="i"><use href="#i-phone"/></svg><span dir="ltr">0593157718</span></li></ul><div class="cbtns"><a class="btn btn-dark" href="https://maps.google.com/?q=Riyadh" target="_blank" rel="noopener">الاتجاهات</a><a class="btn btn-line" href="#book">احجز موعد</a></div></div></article>
+      <article class="center"><img src="v3img/mechanic-tyre.webp" alt=""><div class="cin"><span class="tag-open">مفتوح الآن</span><h3>مركز السويدي</h3><ul><li><svg class="i"><use href="#i-pin"/></svg>طريق ديراب، حي السويدي</li><li><svg class="i"><use href="#i-cal"/></svg>السبت–الخميس · 9 ص – 11 م</li><li><svg class="i"><use href="#i-phone"/></svg><span dir="ltr">0593157718</span></li></ul><div class="cbtns"><a class="btn btn-dark" href="https://maps.google.com/?q=Riyadh" target="_blank" rel="noopener">الاتجاهات</a><a class="btn btn-line" href="#book">احجز موعد</a></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- [component] install banner — fields: label, title, text, image, slots, steps -->
+<section class="wrap fit" id="book">
+  <div class="fit-copy">
+    <span class="kicker">اختيارك علينا، وطريقك قدّامك</span>
+    <h2 class="h2">اشترِ إطاراتك.<br>وركّبها عندنا.</h2>
+    <p class="lead">تركيب مجاني في مراكزنا بالرياض، بعناية تليق بسيارتك. اختر الموعد اللي يناسبك ونجهّز كل شيء قبل ما توصل.</p>
+    <div class="slots">
+      <div class="days" id="days"><button type="button" class="on">اليوم</button><button type="button">بكرة</button><button type="button">بعد بكرة</button></div>
+      <div class="times" id="times"></div>
+    </div>
+    <div class="fit-cta"><a class="btn btn-gold" href="#centers" id="fitGo">احجز موعد التركيب</a><a class="link" href="#centers">الموقع وشروط التركيب</a></div>
+    <ol class="fit-steps"><li><b>01</b>اختر إطاراتك</li><li><b>02</b>أكمل طلبك</li><li><b>03</b>ركّب واستلم</li></ol>
+  </div>
+  <div class="fit-art">
+    <div class="fit-label">TIRES STORE<span>FIT &amp; GO</span></div>
+    <span class="fit-ring"></span>
+    <img src="v2img/madar-tire.webp" alt="إطار جاهز للتركيب">
+    <div class="fit-badge"><b>45</b><small>دقيقة<br>متوسط التركيب</small></div>
+  </div>
+</section>
+
+<!-- [component] call strip — fields: kicker, title, phone, button -->
+<section class="wrap callbar">
+  <div class="cb-txt"><span class="kicker">تفضّل الحجز بالتلفون؟</span><h2>اتصل واحجز موعد التركيب.</h2><p>نرد عليك من 9 الصبح لين 11 بالليل، طوال الأسبوع.</p></div>
+  <div class="cb-act"><a class="cb-phone" href="tel:0593157718" dir="ltr">0593157718</a><a class="btn btn-white" href="tel:0593157718"><svg class="i"><use href="#i-phone"/></svg> اتصل الآن</a></div>
+</section>
+
+<!-- [component] steps (compact) — items: icon, title, text -->
+<section class="sec" id="steps">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">رحلة أسهل من البداية</span><h2 class="h2">ثلاث خطوات. وطريقك جاهز.</h2></div><p class="lead">تسوّق براحتك، وخلّ الباقي علينا.</p></div>
+    <div class="s3">
+      <div><span class="s3i"><svg class="i"><use href="#i-search"/></svg></span><p><b>اعرف مقاسك</b>اختر العرض ونسبة الارتفاع وقطر الجنط، وشوف الإطارات المطابقة.</p><em>01</em></div>
+      <div><span class="s3i"><svg class="i"><use href="#i-card"/></svg></span><p><b>اختر إطارك</b>قارن الماركات والأسعار، وحدّد الكمية المناسبة لسيارتك.</p><em>02</em></div>
+      <div><span class="s3i"><svg class="i"><use href="#i-wrench"/></svg></span><p><b>نسّق الاستلام والتركيب</b>راجع خيارات التوصيل أو التركيب في الرياض.</p><em>03</em></div>
+    </div>
+  </div>
+</section>
+
+<!-- [component] lineup — intro + 4 compact product cards (type, image, name, size, price) -->
+<section class="sec" id="lineup">
+  <div class="wrap lineup">
+    <div class="lu-intro"><span class="kicker">تشكيلتنا</span><h2 class="h2">إطار لكل طريق</h2><p class="lead">من السيدان اليومية لين الدفع الرباعي والنقل — اختر الفئة واكتشف الأنسب.</p><a class="btn btn-line" href="category.html">كل الإطارات <span aria-hidden="true">←</span></a></div>
+    <div class="lu-cards">
+      <a class="lu" href="category.html"><span class="lu-t">سيدان</span><div class="lu-img"><img src="v3img/tire-a.webp" alt=""></div><b>كفر تاش</b><small dir="ltr">205/55 R16</small><div class="lu-f"><span><b>290</b> ر.س / حبة</span><i>←</i></div></a>
+      <a class="lu" href="category.html"><span class="lu-t">دفع رباعي</span><div class="lu-img"><img src="v3img/tire-pair.webp" alt=""></div><b>كفر هانكوك</b><small dir="ltr">265/65 R17</small><div class="lu-f"><span><b>520</b> ر.س / حبة</span><i>←</i></div></a>
+      <a class="lu" href="category.html"><span class="lu-t">نقل</span><div class="lu-img"><img src="v3img/tire-c.webp" alt=""></div><b>كفر يوكوهاما LT</b><small dir="ltr">245/75 R16</small><div class="lu-f"><span><b>610</b> ر.س / حبة</span><i>←</i></div></a>
+      <a class="lu" href="category.html"><span class="lu-t">سيدان</span><div class="lu-img"><img src="v3img/tire-b.webp" alt=""></div><b>كفر تايلندي</b><small dir="ltr">215/60 R17</small><div class="lu-f"><span><b>340</b> ر.س / حبة</span><i>←</i></div></a>
+    </div>
+  </div>
+</section>
+
+<!-- [component] reviews (panel) — source: store reviews -->
+<section class="wrap rpanel" id="reviews">
+  <div class="sec-head"><div><span class="kicker">ثقة تصنعها التجربة</span><h2 class="h2">القرار أسهل مع تجاربهم.</h2></div><p class="lead">تقييمات موثّقة من عملاء المتجر.</p></div>
+  <div class="rp3">
+    <div><span class="q">“</span><b>عبدالعزيز · الرياض</b><p>اخترت المقاس من الموقع وركبتها بنفس اليوم في مركزهم. شغل مرتب وما انتظرت.</p><small>هانكوك 265/65 R17</small></div>
+    <div><span class="q">“</span><b>خالد · جدة</b><p>الأسعار واضحة لكل حبة وقسّطت مع تابي. الكفرات وصلت أصلية وتاريخها حديث.</p><small>بريجستون 215/60 R17</small></div>
+    <div><span class="q">“</span><b>يزيد · الدمام</b><p>صوّرت الكفر وأرسلته واتساب، وردّوا علي بالمقاس والسعر خلال دقائق.</p><small>تاش 275/65 R18</small></div>
+  </div>
+</section>
+
+<!-- [component] tips / blog — source: blog posts -->
+<section class="sec" id="tips" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head"><div><span class="kicker">نصائح</span><h2 class="h2">خلّي إطارك يعيش أطول.</h2></div><a class="link" href="blog.html">كل المقالات <svg class="i" style="width:16px;height:16px"><use href="#i-arrow"/></svg></a></div>
+    <div class="tips">
+      <a class="tip" href="article.html"><div class="ti"><img src="v3img/tread-depth.webp" alt=""></div><small>صيانة · 3 دقائق</small><h3>متى لازم تبدّل إطاراتك؟ اختبار العملة في 10 ثواني</h3></a>
+      <a class="tip" href="article.html"><div class="ti"><img src="v3img/hands-tyre.webp" alt=""></div><small>دليل · 4 دقائق</small><h3>الفرق بين الإطار الصيني والتايلندي والياباني</h3></a>
+      <a class="tip" href="article.html"><div class="ti"><img src="v3img/road-sunset.webp" alt=""></div><small>سلامة · 2 دقيقة</small><h3>ضغط الهوا الصحيح في صيف الرياض</h3></a>
+    </div>
+  </div>
+</section>
+
+<!-- [component] faq — items: q, a -->
+<section class="sec" id="faq">
+  <div class="wrap faq2">
+    <div class="side"><span class="kicker">قبل ما تنطلق</span><h2 class="h2">عندك سؤال؟<br><em>خلّينا نوضّح.</em></h2><p class="lead">إجابات تساعدك تختار براحة.</p><a class="link" href="https://wa.me/966593157718" target="_blank" rel="noopener">تواصل معنا <span aria-hidden="true">↗</span></a></div>
+    <div id="faqList"></div>
+  </div>
+</section>
+
+<!-- [component] newsletter — fields: label, title, note, button -->
+<section class="wrap news2">
+  <div><span class="kicker">خلّيك قريب من جديدنا</span><h2>عروض ونصائح.<br>مباشرة لبريدك.</h2><p>عروض الإطارات ونصائح الصيانة — مرتين بالشهر بالكثير.</p></div>
+  <form class="news2-f" onsubmit="this.querySelector('button').textContent='تم الاشتراك ✓';return false"><label for="nl">البريد الإلكتروني</label><div><input id="nl" type="email" required placeholder="name@example.com" dir="ltr"><button class="btn btn-gold" type="submit">اشترك ←</button></div></form>
+</section>
+
+<!-- [component] footer -->
+<footer>
+  <div class="wrap">
+    <div class="fgrid">
+      <div><a class="brand" href="index.html"><img src="v2img/logo-mark.svg" alt=""><span><b>متجر الإطارات</b><small>TIRES STORE</small></span></a><p style="margin-top:16px;font-size:13.5px;color:#9a9ea2;max-width:300px">إطارات أصلية لكل سيارة، تركيب مجاني بالرياض، وتوصيل لكل مناطق المملكة.</p></div>
+      <div><h4>تسوّق</h4><a href="category.html?brand=تاش">كفرات تاش</a><a href="category.html?brand=تايلندي">كفرات تايلندي</a><a href="category.html?brand=صيني">كفرات صيني</a><a href="brands.html">كل الماركات</a></div>
+      <div><h4>المساعدة</h4><a href="help.html#size">دليل المقاس</a><a href="help.html#centers">مراكز التركيب</a><a href="help.html#returns">سياسة الإرجاع</a><a href="account.html#orders">تتبع الطلب</a><a href="blog.html">المدونة</a></div>
+      <div class="contact"><h4>تواصل</h4><a href="tel:0593157718"><svg class="i" style="width:16px;height:16px"><use href="#i-phone"/></svg><span dir="ltr">0593157718</span></a><a href="help.html#centers"><svg class="i" style="width:16px;height:16px"><use href="#i-pin"/></svg>الرياض</a><form class="news" onsubmit="return false"><input placeholder="بريدك للعروض"><button>اشترك</button></form></div>
+    </div>
+    <div class="fbot"><span>© 2026 متجر الإطارات</span><div class="pay"><span>mada</span><span>VISA</span><span>Apple Pay</span><span>tabby</span><span>tamara</span></div></div>
+  </div>
+</footer>
+
+<!-- [component] welcome coupon popup — fields: title, text, code, image, delay -->
+<div class="wel" id="wel" role="dialog" aria-modal="true" aria-labelledby="welT" hidden>
+  <div class="wel-box">
+    <button class="wel-x" id="welX" aria-label="إغلاق"><svg class="i"><use href="#i-plus"/></svg></button>
+    <div class="wel-img"><img src="v3img/tire-stack-2.webp" alt=""></div>
+    <div class="wel-in">
+      <span class="kicker">أول طلب لك؟</span>
+      <h3 id="welT">خصم 10% على إطاراتك</h3>
+      <p>استخدم الكود عند الدفع. صالح على كل الإطارات حتى نهاية الشهر.</p>
+      <div class="code-box"><b id="welCode">TIRES10</b><button class="btn btn-dark" id="welCopy" style="height:42px">نسخ الكود</button></div>
+      <a class="btn btn-gold" href="#finder" id="welGo" style="width:100%">ابدأ التسوق</a>
+    </div>
+  </div>
+</div>
+
+<!-- [component] floating WhatsApp -->
+<a class="fwa" href="https://wa.me/966593157718" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2zm5 14c-.2.6-1.2 1.2-1.7 1.2-.4 0-1 .2-3.3-.8-2.7-1.2-4.4-4-4.6-4.2-.1-.2-1-1.4-1-2.7s.7-1.9 1-2.2c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 1.9c.1.2.1.4 0 .5l-.4.6c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2 1.1 1 2 1.3 2.3 1.4.3.1.4.1.6-.1l.8-1c.2-.2.4-.2.6-.1l1.8.9c.3.1.4.2.5.3.1.2.1.7-.1 1.3z"/></svg></a>
+
+<nav class="mbar">
+  <a href="index.html" data-p="home"><svg class="i"><use href="#i-home"/></svg>الرئيسية</a>
+  <a href="category.html" data-p="category"><svg class="i"><use href="#i-grid"/></svg>الأقسام</a>
+  <a href="index.html#finder"><svg class="i"><use href="#i-tire"/></svg>مقاسك</a>
+  <a href="cart.html" data-p="cart"><svg class="i"><use href="#i-bag"/></svg>السلة</a>
+  <a href="account.html" data-p="account"><svg class="i"><use href="#i-user"/></svg>حسابي</a>
+</nav>
+
+<script>
+const $=s=>document.querySelector(s)||document.createElement('div'),$$=s=>[...document.querySelectorAll(s)];
+const NS='http://www.w3.org/2000/svg';
+
+/* ---------- hero: size code on the sidewall (component fields: parts — optional) ---------- */
+const PARTS=[
+  {k:'t',v:'P',n:'نوع الإطار',x:'P لسيارات الركاب، و LT للنقل الخفيف.'},
+  {k:'w',v:'205',n:'العرض',x:'عرض الإطار من جانب لجانب بالمليمتر.'},
+  {k:'r',v:'55',n:'نسبة الارتفاع',x:'ارتفاع جانب الإطار = 55% من عرضه.',pre:'/'},
+  {k:'c',v:'R',n:'نوع البناء',x:'R يعني بناء شعاعي، و ZR للسرعات العالية.'},
+  {k:'j',v:'16',n:'قطر الجنط',x:'بالبوصة، ولازم يطابق جنط سيارتك.'},
+  {k:'l',v:'91',n:'مؤشر الحمولة',x:'يتحمّل حتى 615 كغ لكل إطار.'},
+  {k:'s',v:'V',n:'مؤشر السرعة',x:'مناسب لسرعات حتى 240 كم/س.'},
+  {k:'d',v:'0324',n:'تاريخ الصنع',x:'الأسبوع 03 من سنة 2024 — نضمن تاريخ حديث.'},
+];
+// build arc text: "P 205/55 R16 91V  0324"
+const tp=$('#tp');let idx=0;const ranges={};
+const addTxt=(t,k)=>{const s=document.createElementNS(NS,'tspan');s.textContent=t;if(k){s.dataset.k=k;ranges[k]=[idx,idx+t.length-1]}tp.appendChild(s);idx+=t.length};
+addTxt('P','t');addTxt(' ');addTxt('205','w');addTxt('/');addTxt('55','r');addTxt(' ');addTxt('R','c');addTxt('16','j');addTxt(' ');addTxt('91','l');addTxt('V','s');addTxt('   ');addTxt('0324','d');
+// hover a number on the tire -> popup card (optional: the hero works with an image only)
+const pop=$('#pop'),txt=$('#sw text');
+function showPop(k){const p=PARTS.find(x=>x.k===k),[a,b]=ranges[k];let s1,e1;try{s1=txt.getStartPositionOfChar(a);e1=txt.getEndPositionOfChar(b)}catch(_){return}
+  const x=(s1.x+e1.x)/2,y=Math.min(s1.y,e1.y)-50;
+  pop.style.left=(x/10)+'%';pop.style.top=(y/10)+'%';
+  $('#popT').innerHTML='<em>'+p.v+'</em>'+p.n;$('#popX').textContent=p.x;pop.classList.add('show');
+  $$('#tp tspan').forEach(t=>t.classList.toggle('on',t.dataset.k===k))}
+let popK='w',hovering=false;
+$$('#tp tspan[data-k]').forEach(t=>{
+  t.addEventListener('mouseenter',()=>{hovering=true;popK=t.dataset.k;showPop(popK)});
+  t.addEventListener('mouseleave',()=>{hovering=false});
+  t.addEventListener('click',e=>{e.stopPropagation();popK=t.dataset.k;showPop(popK)})});
+const order=PARTS.map(p=>p.k);
+document.fonts.ready.then(()=>{showPop(popK);setInterval(()=>{if(hovering)return;popK=order[(order.indexOf(popK)+1)%order.length];showPop(popK)},3500)});
+addEventListener('resize',()=>showPop(popK));
+addEventListener('scroll',()=>$('header').classList.toggle('scrolled',scrollY>10),{passive:true});
+
+/* ---------- size finder ---------- */
+const POPULAR={w:[195,205,215,225,265],r:[55,60,65,70],j:[15,16,17,18]};
+function enhance(sel){
+  const box=sel.closest('.sel'),k=sel.id;sel.classList.add('native');
+  const btn=document.createElement('button');btn.type='button';btn.className='dd-btn';
+  const panel=document.createElement('div');panel.className='dd-panel';
+  box.append(btn,panel);
+  const draw=()=>{btn.innerHTML='<span>'+sel.value+'</span><svg class="i"><use href="#i-down"/></svg>';
+    const opts=[...sel.options].map(o=>o.value);
+    panel.innerHTML='<div class="t"><span>الأكثر طلباً</span></div><div class="dd-pop">'+POPULAR[k].map(v=>'<button type="button" class="dd-o'+(v==sel.value?' on':'')+'" data-v="'+v+'">'+v+'</button>').join('')+'</div>'
+      +'<div class="t"><span>كل القيم</span><span>'+opts.length+'</span></div><div class="dd-grid">'+opts.map(v=>'<button type="button" class="dd-o'+(v==sel.value?' on':'')+'" data-v="'+v+'">'+v+'</button>').join('')+'</div>';
+    panel.querySelectorAll('.dd-o').forEach(o=>o.onclick=()=>{sel.value=o.dataset.v;sel.dispatchEvent(new Event('change'));box.classList.remove('open');draw()})};
+  btn.onclick=e=>{e.stopPropagation();const was=box.classList.contains('open');$$('.sel.open').forEach(x=>x.classList.remove('open'));if(!was){box.classList.add('open');const on=panel.querySelector('.dd-grid .on');on&&on.scrollIntoView({block:'center'})}};
+  panel.onclick=e=>e.stopPropagation();
+  sel.addEventListener('change',draw);draw();
+}
+document.addEventListener('click',()=>$$('.sel.open').forEach(x=>x.classList.remove('open')));
+document.addEventListener('keydown',e=>{if(e.key==='Escape')$$('.sel.open').forEach(x=>x.classList.remove('open'))});
+
+const range=(a,b,s)=>Array.from({length:Math.floor((b-a)/s)+1},(_,i)=>a+i*s);
+const fill=(id,arr,d)=>$(id).innerHTML=arr.map(v=>`<option${v==d?' selected':''}>${v}</option>`).join('');
+fill('#w',range(155,335,10),205);fill('#r',range(25,85,5),55);fill('#j',range(13,22,1),16);
+['#w','#r','#j'].forEach(id=>enhance($(id)));
+$('#ff').onsubmit=e=>{e.preventDefault();STORE.go('category.html?q='+encodeURIComponent(w.value+'/'+r.value+'/'+j.value))};
+$('#how').onclick=()=>{location.href='help.html#size'};
+
+/* ---------- products ---------- */
+const ico=id=>`<svg class="i"><use href="#i-${id}"/></svg>`;
+const P=[
+ {b:'HANKOOK',n:'Ventus Prime 4',s:'205/55 R16',t:'سيارات سيدان',p:420,o:470,img:'tire-a',tag:'الأكثر مبيعاً',br:'هانكوك',y:2025},
+ {b:'BRIDGESTONE',n:'Turanza T005',s:'215/60 R17',t:'سيارات سيدان',p:510,img:'tire-c',br:'بريجستون',y:2025},
+ {b:'YOKOHAMA',n:'Geolandar A/T',s:'265/65 R17',t:'دفع رباعي',p:640,o:700,img:'tire-a',tag:'عرض',g:1,br:'يوكوهاما',y:2024},
+ {b:'TASH',n:'كفر تاش',s:'275/65 R18',t:'دفع رباعي',p:390,img:'tire-c',br:'تاش',y:2025},
+ {b:'HANKOOK',n:'Dynapro HT',s:'245/70 R16',t:'بيك أب',p:560,img:'tire-c',br:'هانكوك',y:2025},
+ {b:'YOKOHAMA',n:'BluEarth ES32',s:'195/65 R15',t:'سيارات سيدان',p:330,img:'tire-a',br:'يوكوهاما',y:2025},
+];
+const card=(p,i)=>`<article class="pcard${i===0?' feat':''}"><div class="pimg">${p.tag?`<span class="ptag ${p.g?'g':''}">${p.tag}</span>`:''}<img src="v3img/${p.img}.webp" alt="${p.n}"></div>
+<div class="pbody"><span class="pbrand">${p.b}</span><h3>${p.n}</h3><span class="pline">${p.t||'إطار'} · <b dir="ltr">${p.s}</b></span>
+<div class="pfoot2"><div class="pprice2"><div><b>${p.p}</b> <span>ر.س</span>${p.o?`<s>${p.o}</s>`:''}</div><small>للإطار الواحد</small></div><a class="pdetails" href="${STORE.link(p.n)}">عرض التفاصيل <span>←</span></a></div>
+<button type="button" class="add2" data-n="${p.n}">+ أضف 4 إطارات للسلة</button></div></article>`;
+let cart=0;
+const render=f=>{$('#slider').innerHTML=P.filter(p=>!f||f==='الكل'||p.br===f).map(card).join('');
+  $$('.add2').forEach(b=>b.onclick=()=>{STORE.addByName(b.dataset.n,4);b.textContent='✓ أُضيفت للسلة';b.classList.add('done')})};
+render();
+$$('#filters button').forEach(b=>b.onclick=()=>{$$('#filters button').forEach(x=>x.classList.remove('on'));b.classList.add('on');render(b.textContent)});
+const sl=$('#slider');$('#sNext').onclick=()=>sl.scrollBy({left:-sl.clientWidth*.75,behavior:'smooth'});$('#sPrev').onclick=()=>sl.scrollBy({left:sl.clientWidth*.75,behavior:'smooth'});
+
+/* ---------- installment ---------- */
+const upd=()=>{const v=+$('#range').value;$('#inst').textContent=Math.round(v/4);$('#tot').textContent=v};$('#range').oninput=upd;upd();
+
+/* ---------- reviews (from store reviews) ---------- */
+const R=[
+ {n:'عبدالعزيز',c:'الرياض',p:'265/65 R17',d:'قبل يومين',t:'اخترت المقاس من الموقع وركبتها بنفس اليوم في مركزهم. شغل مرتب وما انتظرت.'},
+ {n:'خالد',c:'جدة',p:'215/60 R17',d:'قبل أسبوع',t:'الأسعار واضحة لكل حبة وقسّطت مع تابي. الكفرات وصلت أصلية وتاريخها حديث.'},
+ {n:'يزيد',c:'الدمام',p:'275/65 R18',d:'قبل أسبوعين',t:'ما كنت أعرف مقاس كفرات الجيب، صورتها وأرسلتها واتساب وردوا علي خلال دقائق.'},
+ {n:'فهد',c:'الرياض',p:'205/55 R16',d:'قبل 3 أسابيع',t:'الترصيص كان دقيق والسيارة صارت أهدى على الخط السريع. أنصح فيهم.'},
+];
+$('#revList').innerHTML=R.map(r=>`<article class="rcard"><div class="top"><span class="st">★★★★★</span><span class="ver"><svg class="i" style="width:14px;height:14px"><use href="#i-shield"/></svg> مشتري موثّق</span></div><p>${r.t}</p><div class="who"><div><b>${r.n}</b><small>${r.c} · ${r.d}</small></div><span class="chip">${r.p}</span></div></article>`).join('');
+const rl=$('#revList');$('#rNext').onclick=()=>rl.scrollBy({left:-rl.clientWidth/2,behavior:'smooth'});$('#rPrev').onclick=()=>rl.scrollBy({left:rl.clientWidth/2,behavior:'smooth'});
+
+/* ---------- offer countdown ---------- */
+const END=Date.now()+3*864e5+5*36e5;
+if($('#cd')){const tick=()=>{let d=Math.max(0,END-Date.now())/1000;const v=[Math.floor(d/86400),Math.floor(d%86400/3600),Math.floor(d%3600/60),Math.floor(d%60)];$$('#cd b').forEach((b,i)=>b.textContent=String(v[i]).padStart(2,'0'))};tick();setInterval(tick,1000);}
+
+/* ---------- whatsapp chat preview plays once when visible ---------- */
+const wio=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;$$('.chat .msg').forEach((m,i)=>setTimeout(()=>m.classList.add('in'),i*700));wio.disconnect()}),{threshold:.4});
+wio.observe($('.phone'));
+
+/* ---------- faq ---------- */
+const F=[
+ ['كيف أعرف مقاس الإطار المناسب لسيارتي؟','المقاس مكتوب على جانب إطارك الحالي بهذا الشكل: 205/55 R16. تقدر كمان تلقاه في ملصق إطار باب السائق أو دليل السيارة.'],
+ ['هل السعر يشمل التركيب؟','نعم، التركيب على الجنط مجاني عند اختيار «استلام وتركيب بالرياض». الترصيص وزن الأذرعة برسوم بسيطة.'],
+ ['كم تاريخ صنع الإطارات؟','نضمن أن تاريخ الصنع لا يتجاوز 12 شهر من تاريخ الطلب، ويظهر في صفحة كل منتج.'],
+ ['كم مدة التوصيل؟','داخل الرياض 1–2 يوم، وباقي المناطق 3–5 أيام. المدة الدقيقة تظهر قبل الدفع.'],
+ ['هل أقدر أرجّع الإطار؟','نعم، الإطارات غير المركّبة وبحالتها الأصلية خلال 7 أيام وفق سياسة الإرجاع.'],
+];
+$('#faqList').innerHTML=F.map((f,i)=>`<details${i?'':' open'}><summary>${f[0]}<svg class="i"><use href="#i-plus"/></svg></summary><p>${f[1]}</p></details>`).join('');
+
+/* ---------- numbers count once when visible ---------- */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target,n=+el.dataset.n;let c=0;const st=Math.max(1,Math.ceil(n/40));const t=setInterval(()=>{c=Math.min(n,c+st);el.textContent=(el.hasAttribute('data-plain')?'':'+')+c.toLocaleString('en');if(c>=n)clearInterval(t)},25);io.unobserve(el)}),{threshold:.6});
+$$('[data-n]').forEach(el=>io.observe(el));
+
+/* ---------- shop by car (component data: makes/models/years/size) ---------- */
+const CARS={
+ 'تويوتا':{'كامري':['2018–2024','215/55 R17'],'لاند كروزر':['2016–2024','285/60 R18'],'هايلكس':['2016–2024','265/65 R17'],'يارس':['2018–2024','185/60 R15']},
+ 'هيونداي':{'النترا':['2017–2024','205/55 R16'],'توسان':['2019–2024','225/60 R17'],'أكسنت':['2018–2024','185/65 R15'],'سوناتا':['2020–2024','215/55 R17']},
+ 'نيسان':{'باترول':['2014–2024','275/70 R18'],'ألتيما':['2019–2024','215/60 R16'],'صني':['2018–2024','185/65 R15']},
+ 'كيا':{'سبورتاج':['2019–2024','225/60 R17'],'سيراتو':['2019–2024','205/55 R16'],'K5':['2021–2024','215/55 R17']},
+ 'شفروليه':{'تاهو':['2015–2024','275/55 R20'],'ماليبو':['2017–2024','225/55 R17']},
+ 'فورد':{'F-150':['2018–2024','275/65 R18'],'إكسبلورر':['2020–2024','255/65 R18']},
+ 'جي إم سي':{'يوكن':['2015–2024','275/55 R20'],'سييرا':['2019–2024','265/70 R17']},
+ 'لكزس':{'LX':['2016–2024','275/50 R21'],'ES':['2019–2024','235/45 R18']},
+};
+let cMake,cModel;
+const btn=(t,cls)=>'<button type="button"'+(cls?' class="'+cls+'"':'')+'>'+t+'</button>';
+$('#makes').innerHTML=Object.keys(CARS).map(m=>btn(m)).join('');
+$$('#makes button').forEach(b=>b.onclick=()=>{cMake=b.textContent;$$('#makes button').forEach(x=>x.classList.toggle('on',x===b));
+  $('#models').innerHTML=Object.keys(CARS[cMake]).map(m=>btn(m,'ar')).join('');$('#years').innerHTML='<p class="hint">اختر الموديل</p>';resetOut();
+  $$('#models button').forEach(mb=>mb.onclick=()=>{cModel=mb.textContent;$$('#models button').forEach(x=>x.classList.toggle('on',x===mb));
+    const [range]=CARS[cMake][cModel];const [a,z]=range.split('–').map(Number);const ys=[];for(let y=z;y>=a;y--)ys.push(y);
+    $('#years').innerHTML=ys.map(y=>btn(y)).join('');resetOut();
+    $$('#years button').forEach(yb=>yb.onclick=()=>{$$('#years button').forEach(x=>x.classList.toggle('on',x===yb));showOut(yb.textContent)})})});
+function resetOut(){$('#carOut').innerHTML='<span class="cstep" style="color:#9a9ea2">المقاس المناسب</span><div class="cres">—</div><p>اختر سيارتك عشان نعرض المقاس والإطارات المتوفرة.</p>'}
+function showOut(y){const size=CARS[cMake][cModel][1];$('#carOut').innerHTML='<span class="cstep" style="color:#9a9ea2">'+cMake+' '+cModel+' '+y+'</span><div class="cres">'+size+'</div><p>المقاس الأصلي من المصنع. تأكد منه على جانب إطارك الحالي أو ملصق باب السائق.</p><a class="btn btn-gold" href="category.html?q='+encodeURIComponent(size)+'">اعرض الإطارات المطابقة</a>'}
+
+
+/* before/after: range is RTL-aware (value = share of the "before" image from the right) */
+$('#baRange').oninput=e=>$('#ba-box').style.setProperty('--p',(100-e.target.value)+'%');
+
+const t=$('.mq-track');t.innerHTML+=t.innerHTML;
+
+/* welcome popup: once per visitor (storage may be unavailable) */
+(function(){const k='ts-welcome-seen';let seen=false;try{seen=localStorage.getItem(k)==='1'}catch(_){}
+ if(seen)return;const w=$('#wel');const close=()=>{w.hidden=true;try{localStorage.setItem(k,'1')}catch(_){}};
+ setTimeout(()=>{w.hidden=false},5000);
+ $('#welX').onclick=close;$('#welGo').onclick=close;w.onclick=e=>{if(e.target===w)close()};
+ document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!w.hidden)close()});
+ $('#welCopy').onclick=()=>{const c=$('#welCode').textContent;const done=()=>{$('#welCopy').textContent='تم النسخ'};
+   if(navigator.clipboard)navigator.clipboard.writeText(c).then(done,done);else done()};})();
+
+
+/* install banner: fake slot picker (component: slots come from store settings) */
+const SLOTS=['10:00','11:30','1:00','2:30','4:00','5:30','7:00','8:30'];
+let fitDay=0,fitTime='';
+function drawSlots(){$('#times').innerHTML=SLOTS.map((t,i)=>'<button type="button"'+((fitDay===0&&i<3)||(fitDay===1&&i===4)?' disabled':'')+(t===fitTime?' class="on"':'')+'>'+t+'</button>').join('');
+  $$('#times button:not(:disabled)').forEach(b=>b.onclick=()=>{fitTime=b.textContent;drawSlots();$('#fitGo').textContent='احجز '+$$('#days button')[fitDay].textContent+' · '+fitTime})}
+$$('#days button').forEach((b,i)=>b.onclick=()=>{fitDay=i;fitTime='';$$('#days button').forEach(x=>x.classList.toggle('on',x===b));$('#fitGo').textContent='احجز موعد التركيب';drawSlots()});
+drawSlots();
+
+/* product grid (Madar style): brand filter + sort + favourites */
+const CP=[
+ {b:'Hankook',n:'Ventus Prime 4',s:'205/55 R16',t:'سيدان',p:420,o:470,img:'tire-a',feat:1,br:'هانكوك',y:2025,pop:5},
+ {b:'BRIDGESTONE',n:'Turanza T005',s:'215/60 R17',t:'سيدان',p:510,img:'tire-c',br:'بريجستون',y:2025,pop:4},
+ {b:'YOKOHAMA',n:'Geolandar A/T',s:'265/65 R17',t:'دفع رباعي',p:640,o:700,img:'tire-b',tag:'عرض',br:'يوكوهاما',y:2024,pop:3},
+ {b:'TASH',n:'كفر تاش',s:'275/65 R18',t:'دفع رباعي',p:390,img:'tire-stack-2',tag:'الأكثر مبيعاً',br:'تاش',y:2025,pop:6},
+ {b:'Hankook',n:'Dynapro HT',s:'245/70 R16',t:'بيك أب',p:560,img:'tire-c',br:'هانكوك',y:2025,pop:2},
+ {b:'YOKOHAMA',n:'BluEarth ES32',s:'195/65 R15',t:'سيدان',p:330,img:'tire-a',br:'يوكوهاما',y:2025,pop:1},
+ {b:'BRIDGESTONE',n:'Dueler H/T',s:'265/70 R16',t:'دفع رباعي',p:590,img:'tire-b',br:'بريجستون',y:2025,pop:3},
+ {b:'TASH',n:'كفر تاش رياضي',s:'225/45 R18',t:'سيدان',p:410,o:450,img:'tire-a',tag:'عرض',br:'تاش',y:2025,pop:4},
+];
+let cf='الكل',cs='feat';
+const ccard=p=>'<article class="ccard'+(p.feat?' feat':'')+'"><div class="ctop"><button type="button" class="fav" aria-label="أضف للمفضلة" aria-pressed="false"><svg class="i"><use href="#i-heart"/></svg></button><span class="cbrand">'+p.b+'</span></div>'
+ +'<div class="ctagrow">'+(p.feat?'<span class="ctag g">اختيار مميز</span>':p.tag?'<span class="ctag">'+p.tag+'</span>':'')+'</div>'
+ +'<div class="cimg"><span class="cghost">'+p.s.split(' ').pop()+'</span><img src="v3img/'+p.img+'.webp" alt="'+p.n+'"></div>'
+ +'<div class="cbody"><h3><a href="'+STORE.link(p.n)+'">'+p.n+'</a></h3><span class="csub"><b dir="ltr">'+p.s+'</b> · '+p.t+' · صنع '+p.y+'</span>'
+ +'<div class="pfoot"><div class="pprice"><b>'+p.p+'</b> ر.س'+(p.o?'<s>'+p.o+'</s>':'')+'<small>للحبة · '+p.p*4+' للأربع</small></div><button type="button" class="add" data-n="'+p.n+'">'+ico('plus')+' أضف</button></div></div></article>';
+function renderC(){let l=CP.filter(p=>cf==='الكل'||p.br===cf);
+ if(cs==='low')l=[...l].sort((a,b)=>a.p-b.p);else if(cs==='high')l=[...l].sort((a,b)=>b.p-a.p);else if(cs==='pop')l=[...l].sort((a,b)=>b.pop-a.pop);
+ $('#cgrid').innerHTML=l.map(ccard).join('');$('#ccount').textContent=l.length+' منتجات';
+ $$('#cgrid .add').forEach(b=>b.onclick=()=>{STORE.addByName(b.dataset.n,4);b.classList.add('done');b.innerHTML=ico('plus')+' بالسلة'});
+ $$('#cgrid .fav').forEach(b=>b.onclick=()=>b.setAttribute('aria-pressed',b.getAttribute('aria-pressed')!=='true'))}
+renderC();
+$$('#cfilters button').forEach(b=>b.onclick=()=>{$$('#cfilters button').forEach(x=>x.classList.toggle('on',x===b));cf=b.dataset.f;renderC()});
+$('#csort').onchange=e=>{cs=e.target.value;renderC()};
+
+/* compare v2: per-size prices, meters instead of plain rows */
+const TIERS=[
+ {k:'eco',tier:'اقتصادي',name:'كفر صيني',img:'tire-c',life:40000,quiet:2,wy:1,origin:'الصين',mult:1},
+ {k:'mid',tier:'متوسط',name:'كفر تايلندي',img:'tire-a',life:60000,quiet:4,wy:2,origin:'تايلند',mult:1.24,best:1},
+ {k:'pro',tier:'ممتاز',name:'هانكوك',img:'tire-b',life:75000,quiet:5,wy:5,origin:'كوريا',mult:1.45},
+];
+const CSIZES={'205/55 R16':290,'215/60 R17':330,'225/45 R18':360,'265/65 R17':420,'275/65 R18':450};
+let csz='205/55 R16';
+const QUIET=['','منخفض','مقبول','متوسط','عالي','عالي جداً'];
+function drawCmp(){
+ $('#cmpSizes').innerHTML=Object.keys(CSIZES).map(z=>'<button type="button"'+(z===csz?' class="on"':'')+'>'+z+'</button>').join('');
+ $$('#cmpSizes button').forEach(b=>b.onclick=()=>{csz=b.textContent;drawCmp()});
+ $('#cmp').innerHTML=TIERS.map(t=>{const p=Math.round(CSIZES[csz]*t.mult/5)*5;const perKm=(p*4/t.life*1000).toFixed(1);
+  return '<div class="cc'+(t.best?' best':'')+'">'+(t.best?'<span class="flag">الأفضل قيمة</span>':'')
+  +'<div class="cc-head"><div><span class="tier">'+t.tier+'</span><h3>'+t.name+'</h3></div><span class="cc-badge" dir="ltr">'+csz+'</span></div>'
+  +'<div class="cc-tier">'+[1,2,3].map(n=>'<i'+(n<=(t.k==='eco'?1:t.k==='mid'?2:3)?' class="on"':'')+'></i>').join('')+'<span>'+(t.k==='eco'?'للاستخدام الخفيف داخل المدينة':t.k==='mid'?'التوازن بين السعر والعمر':'أعلى عمر وأهدأ قيادة')+'</span></div>'
+  +'<div class="cc-price"><div><b>'+p+'</b> <small>ر.س / حبة</small></div><span>'+(p*4).toLocaleString('en')+' للأربع</span></div>'
+  +'<div class="meter"><div><span>العمر المتوقع</span><b>'+t.life.toLocaleString('en')+' كم</b></div><i style="--w:'+(t.life/75000*100)+'%"></i></div>'
+  +'<div class="meter"><div><span>الهدوء والراحة</span><b>'+QUIET[t.quiet]+'</b></div><i style="--w:'+(t.quiet*20)+'%"></i></div>'
+  +'<div class="meter"><div><span>تكلفة كل 1000 كم</span><b>'+perKm+' ر.س</b></div><i style="--w:'+Math.min(100,perKm*3)+'%"></i></div>'
+  +'<div class="cc-facts"><span>ضمان '+(t.wy===1?'سنة':t.wy===2?'سنتين':t.wy+' سنوات')+'</span><span>منشأ: '+t.origin+'</span><span>تركيب مجاني</span></div>'
+  +'<a class="btn '+(t.best?'btn-gold':'btn-line')+'" href="category.html">اختر '+t.tier+'</a></div>'}).join('')}
+drawCmp();
+
+/* compare table (component: tiers × spec rows) */
+const CT=[
+ {tier:'اقتصادي',name:'كفر صيني',life:40000,quiet:'مقبول',wy:'سنة',origin:'الصين',fit:'داخل المدينة',mult:1},
+ {tier:'متوسط',name:'كفر تايلندي',life:60000,quiet:'عالي',wy:'سنتين',origin:'تايلند',fit:'يومي وسفر',mult:1.24,best:1},
+ {tier:'ممتاز',name:'هانكوك',life:75000,quiet:'عالي جداً',wy:'5 سنوات',origin:'كوريا',fit:'سفر وطرق سريعة',mult:1.45},
+];
+const CBASE={'205/55 R16':290,'215/60 R17':330,'225/45 R18':360,'265/65 R17':420,'275/65 R18':450};
+function drawTable(){const z=$('#cmpSel').value;const P=CT.map(t=>Math.round(CBASE[z]*t.mult/5)*5);
+ const col=(t,i)=>' class="'+(t.best?'best':'')+'"';
+ const row=(label,fn)=>'<tr><th scope="row">'+label+'</th>'+CT.map((t,i)=>'<td'+col(t)+'>'+fn(t,i)+'</td>').join('')+'</tr>';
+ $('#ctable').innerHTML='<thead><tr><th></th>'+CT.map(t=>'<th'+col(t)+'>'+(t.best?'<small class="bv">الأفضل قيمة</small>':'')+'<span>'+t.tier+'</span><b>'+t.name+'</b></th>').join('')+'</tr></thead><tbody>'
+  +row('السعر للحبة',(t,i)=>'<b class="num">'+P[i]+'</b> ر.س')
+  +row('للأربع إطارات',(t,i)=>(P[i]*4).toLocaleString('en')+' ر.س')
+  +row('العمر المتوقع',t=>t.life.toLocaleString('en')+' كم')
+  +row('تكلفة كل 1000 كم',(t,i)=>(P[i]*4/t.life*1000).toFixed(1)+' ر.س')
+  +row('الهدوء',t=>t.quiet)+row('الضمان',t=>t.wy)+row('المنشأ',t=>t.origin)+row('مناسب لـ',t=>t.fit)
+  +'<tr class="cta"><th></th>'+CT.map(t=>'<td'+col(t)+'><a class="btn '+(t.best?'btn-gold':'btn-line')+'" href="category.html">اختر</a></td>').join('')+'</tr></tbody>'}
+if($('#cmpSel').tagName==='SELECT'){$('#cmpSel').onchange=drawTable;drawTable()}
+/* faq: numbered rows */
+$$('#faqList summary').forEach((sm,i)=>{const n=document.createElement('span');n.className='fq-n';n.textContent=String(i+1).padStart(2,'0');sm.prepend(n)});
+
+/* tire picker: one recommendation per priority, three calm cards */
+const PT=[
+ {k:'eco',tier:'اقتصادي',name:'كفر صيني',life:40000,quiet:'مقبول',wy:'سنة',origin:'الصين',fit:'داخل المدينة',mult:1},
+ {k:'mid',tier:'متوسط',name:'كفر تايلندي',life:60000,quiet:'عالي',wy:'سنتين',origin:'تايلند',fit:'يومي وسفر',mult:1.24},
+ {k:'pro',tier:'ممتاز',name:'هانكوك',life:75000,quiet:'عالي جداً',wy:'5 سنوات',origin:'كوريا',fit:'سفر وطرق سريعة',mult:1.45},
+];
+const PBASE={'205/55 R16':290,'215/60 R17':330,'225/45 R18':360,'265/65 R17':420,'275/65 R18':450};
+const PICK={value:['mid','يعطيك أقل تكلفة لكل كيلومتر مع عمر وهدوء ممتازين.'],price:['eco','أقل دفعة اليوم، ومناسب للمشاوير داخل المدينة.'],life:['pro','يعيش أطول، فتبدّل أقل على المدى البعيد.'],quiet:['pro','أهدأ صوت وأنعم قيادة على الطرق السريعة.']};
+let prio='value';
+function drawPick(){const z=$('#pkSize').value,[rk,why]=PICK[prio];
+ const price=t=>Math.round(PBASE[z]*t.mult/5)*5;const rec=PT.find(t=>t.k===rk);
+ $('#verdict').innerHTML='ننصحك بـ <b>'+rec.name+'</b> — '+why;
+ $('#tiers').innerHTML=PT.map(t=>{const p=price(t),on=t.k===rk;
+  return '<article class="tier'+(on?' rec':'')+'">'+(on?'<span class="rec-l">اختيارنا لك</span>':'')
+  +'<span class="t-tier">'+t.tier+'</span><h3>'+t.name+'</h3>'
+  +'<div class="t-price"><b>'+p+'</b> ر.س <small>للإطار · '+(p*4).toLocaleString('en')+' للأربع</small></div>'
+  +'<dl><div><dt>العمر المتوقع</dt><dd>'+t.life.toLocaleString('en')+' كم</dd></div><div><dt>كل 1000 كم</dt><dd>'+(p*4/t.life*1000).toFixed(1)+' ر.س</dd></div><div><dt>الهدوء</dt><dd>'+t.quiet+'</dd></div><div><dt>الضمان</dt><dd>'+t.wy+'</dd></div><div><dt>المنشأ</dt><dd>'+t.origin+'</dd></div><div><dt>مناسب لـ</dt><dd>'+t.fit+'</dd></div></dl>'
+  +'<a class="btn '+(on?'btn-gold':'btn-line')+'" href="category.html">اختر '+t.tier+'</a></article>'}).join('')}
+$$('#prio button').forEach(b=>b.onclick=()=>{prio=b.dataset.p;$$('#prio button').forEach(x=>x.classList.toggle('on',x===b));drawPick()});
+if($('#pkSize').tagName==='SELECT'){$('#pkSize').onchange=drawPick;drawPick()}
+
+/* moving ticker: duplicate the items for a seamless loop */
+$('#tkTrack').innerHTML+=$('#tkTrack').innerHTML;
+</script>
